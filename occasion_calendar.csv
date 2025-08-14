@@ -1,0 +1,8 @@
+occasion,user_type,start_month,end_month,multiplier,notes
+homecoming,highschool,9,10,1.25,Sept-Oct peak for short and midi dresses
+prom,highschool,3,5,1.35,Mar-May very high demand for gowns and sparkly minis
+winter_formal,highschool,12,1,1.15,Dec-Jan school formals/holiday parties
+football_season,college,9,11,1.15,Game days and tailgates (school colors popular)
+date_parties,college,10,4,1.10,Themed mixers and semi-formals
+formals,college,11,4,1.25,Greek life and club formals
+rush,college,8,8,1.20,Panhellenic recruitment (neutrals/white)
