@@ -1,4 +1,9 @@
+# Load external CSS
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
+local_css("style.css")
 [     UTC     ] Logs for smart-pricing-app-6erzgsffm37bawk8z7btud.streamlit.app/
 ────────────────────────────────────────────────────────────────────────────────────────
 [10:02:02] 🚀 Starting up repository: 'smart-pricing-app', branch: 'main', main module: 'app.py'
