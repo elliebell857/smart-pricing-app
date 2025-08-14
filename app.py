@@ -7497,5 +7497,58 @@ tokenize.TokenError: ('EOF in multi-line string', (71, 1))
 2025-08-14 10:42:18.477 503 GET /script-health-check (127.0.0.1) 268.89ms
 main
 elliebell857/smart-pricing-app/main/app.py
+# ====== APPEARANCE PACK ======
+st.set_page_config(page_title="Occasion Pricing Advisor", page_icon="💃", layout="centered")
 
+st.markdown("""
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+/* App background + fonts */
+html, body, [class*="css"] { font-family: 'Poppins', sans-serif; }
+h1, h2, h3, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3 { 
+  font-family: 'Playfair Display', serif; color:#7A2E8E; font-weight:700;
+}
+.stApp { background: linear-gradient(135deg, #ffe6f0, #fff5e6); }
+
+/* Sidebar */
+[data-testid="stSidebar"] { background:#fff0f5; border-right:1px solid rgba(122,46,142,0.08); }
+
+/* Sections as cards */
+.card {
+  background: rgba(255,255,255,0.9);
+  border-radius: 14px;
+  padding: 16px 16px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+  border: 1px solid rgba(122,46,142,0.08);
+  margin: 10px 0 14px;
+}
+.divider {
+  height:1px; 
+  background:linear-gradient(90deg, rgba(122,46,142,0.25), rgba(255,255,255,0));
+  margin:10px 0 6px;
+}
+
+/* Buttons */
+.stButton>button{
+  background:#FF85A2; color:#fff; border:none; border-radius:12px;
+  padding:.6em 1.1em; font-size:1rem; box-shadow:0 6px 16px rgba(255,133,162,.35);
+  transition:all .2s ease;
+}
+.stButton>button:hover{ background:#E75480; transform:translateY(-1px) scale(1.02); }
+
+/* Inputs */
+.stTextInput>div>div>input, .stNumberInput input, .stSelectbox div[data-baseweb="select"]>div{
+  background:#fff; border-radius:10px; border:1px solid #e5e5e5;
+}
+
+/* File uploader */
+[data-testid="stFileUploader"]{
+  background:rgba(255,255,255,.95); border-radius:12px; padding:12px; border:1px dashed #e3b9c6;
+}
+
+/* Table container */
+.stDataFrame { background:rgba(255,255,255,.95) !important; border-radius:12px; padding:6px; }
+</style>
+""", unsafe_allow_html=True)
+# ====== END APPEARANCE PACK ======
 
